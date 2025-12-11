@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Experience() {
   return (
     <section className="py-20 px-6 bg-light">
@@ -30,3 +32,4 @@ export default function Experience() {
     </section>
   );
 }
+
