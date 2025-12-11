@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Research() {
   return (
     <section className="py-20 px-6">
@@ -16,3 +18,4 @@ export default function Research() {
     </section>
   );
 }
+
