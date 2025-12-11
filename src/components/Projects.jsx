@@ -4,18 +4,24 @@ export default function Projects() {
   const projects = [
     {
       title: "Sustainable Performance Optimization in Formula 1",
-      tech: "Numpy, Pandas, Plotly, Streamlit",
+      Stack: "Numpy, Pandas, Plotly, Streamlit",
       desc: "This project analyzes Formula 1 race telemetry and lap data to evaluate how tyre management, degradation patterns, and pit stop strategy affect both race performance and sustainability efficiency. Using real telemetry data from the 2024 Formula 1 season, this dashboard compares any two drivers within a selected race and calculates a new Sustainability Performance Score to assess tyre usage efficiency and resource optimization.",
       link: "https://github.com/shashank-dj/f1-sustainable-performance-dashboard",
       dashboard: "https://f1-sustainable-performance-dashboard-shashank.streamlit.app/"
     },
     {
       title: "Industrial Carbon & Energy Sustainability Analytics Dashboard",
-      tech: "Python, Pandas, Plotly, and Streamlit",
+      Stack: "Python, Pandas, Plotly, and Streamlit",
       desc: "Green Asset Monitor is a data-driven sustainability analytics system .It analyzes energy generation, demand, storage behavior, and carbon emissions in a low-carbon industrial park, providing actionable insights for sustainability teams and operations engineers.This project uses the publicly available Low-Carbon Industrial Park Energy Dataset from Kaggle and demonstrates how industrial facilities can measure, monitor, and optimize their carbon footprint.",
       link: "https://github.com/shashank-dj/Green-Asset-Management",
       dashboard: "https://green-asset-management-shashank-tk.streamlit.app/"
+    },
+    {
+      title: "Building Chisel Ubuntu Image",
+      Stack: "Docker, AWS, C#, Linux, Faceted Search",
+      desc: "Developed a custom Ubuntu-based Chisel image to enable secure tunneling and remote access. The project focused on optimizing the image for lightweight deployment, ensuring efficient networking and seamless integration with cloud environments. I worked with Docker, Linux system configuration, and networking to enhance security and performance, making the solution scalable and reliable for secure access control in various applications."
     }
+
   ];
 
   return (
@@ -31,7 +37,7 @@ export default function Projects() {
             <h3 className="text-xl font-bold text-primary">{p.title}</h3>
             <p className="text-gray-700 mt-2">{p.desc}</p>
             <p className="text-sm text-gray-500 mt-1 font-semibold">
-              Tech: {p.tech}
+              Stack: {p.Stack}
             </p>
 
             {/* BUTTONS */}
