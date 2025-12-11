@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Hero() {
   return (
     <section className="bg-dark text-white py-20 px-6 text-center">
@@ -31,3 +33,4 @@ export default function Hero() {
     </section>
   );
 }
+
