@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Projects() {
   const projects = [
     {
@@ -51,3 +53,4 @@ export default function Projects() {
     </section>
   );
 }
+
