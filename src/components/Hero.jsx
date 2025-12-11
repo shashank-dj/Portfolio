@@ -3,17 +3,31 @@ import React from "react";
 export default function Hero() {
   return (
     <section className="bg-dark text-white py-20 px-6 text-center">
+
+      {/* ⭐ PROFILE IMAGE (PUT YOUR IMAGE IN /public/profile.png) */}
+      <img
+        src="/profile.jpg"
+        alt="Shashank profile"
+        className="w-40 h-40 rounded-full mx-auto mb-6 object-cover border-4 border-primary"
+      />
+
       <h1 className="text-5xl font-bold mb-4">
-        Shashank Thoppanahalli Krishnakumar
+        Shashank T K
       </h1>
+
       <h2 className="text-xl text-primary mb-6">
-        Engineering × AI × Sustainability
+        Software Developer • AI Engineer • Researcher
       </h2>
-      <p className="max-w-2xl mx-auto text-gray-300">
-        Sustainability-driven technologist with experience in mechanical
-        engineering, industrial data systems, and cloud development.
-        I build AI-powered tools for decarbonization, ESG automation, and
-        industrial sustainability analytics.
+
+      <p className="max-w-2xl mx-auto text-gray-300 leading-relaxed">
+        I’m a software developer and AI engineer with a foundation in
+        engineering and hands-on experience in computer vision, deep learning,
+        and cloud-based industrial systems. I have contributed to LLM-powered
+        search features, smart manufacturing projects, and research across
+        robotics, ESG technology, and applied machine learning. 
+        With multiple international research publications and an upcoming MSc in
+        Sustainability Management at SDA Bocconi, I bring together engineering,
+        AI, and data-driven problem-solving to build scalable, impactful solutions.
       </p>
 
       <div className="mt-8 space-x-4">
@@ -33,4 +47,3 @@ export default function Hero() {
     </section>
   );
 }
-
