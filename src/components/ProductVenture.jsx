@@ -29,36 +29,6 @@ export default function ProductVenture() {
             exit due diligence.
           </p>
 
-          {/* WHAT I BUILT */}
-          <div className="mt-8">
-            <h4 className="text-lg font-semibold text-primary mb-3">
-              What I built & led
-            </h4>
-
-            <ul className="list-disc list-inside text-textsub space-y-2">
-              <li>
-                Identified a governance gap in how ESG decisions are
-                documented at board level
-              </li>
-              <li>
-                Designed the product architecture and end-to-end user
-                flows focused on PE and board governance
-              </li>
-              <li>
-                Built a multi-page React web application to showcase the
-                product structure and capabilities
-              </li>
-              <li>
-                Authored comprehensive product documentation covering
-                problem framing, users, security, and roadmap
-              </li>
-              <li>
-                Positioned the product for LP expectations, audits, and
-                governance defensibility
-              </li>
-            </ul>
-          </div>
-
           {/* COLLABORATORS */}
           <div className="mt-10">
             <h4 className="text-lg font-semibold text-primary mb-3">
