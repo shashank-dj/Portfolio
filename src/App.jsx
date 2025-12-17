@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Research from "./components/Research";
 import Footer from "./components/Footer";
-import ProductVenture from "./components/ProductVenture;
+import ProductVenture from "./components/ProductVenture";
 
 export default function App() {
   return (
@@ -19,5 +19,6 @@ export default function App() {
     </div>
   );
 }
+
 
 
