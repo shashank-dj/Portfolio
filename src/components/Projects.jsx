@@ -68,7 +68,7 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition"
                 >
-                  Live Demo
+                  Dashboard
                 </a>
               )}
             </div>
@@ -78,3 +78,4 @@ export default function Projects() {
     </section>
   );
 }
+
