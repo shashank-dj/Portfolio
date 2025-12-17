@@ -93,7 +93,7 @@ export default function ProductVenture() {
             </a>
 
             <a
-              href="https://github.com/your-username/board-esg-intelligence"
+              href="https://github.com/shashank-dj/board-esg-intelligence"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition"
