@@ -16,7 +16,7 @@ export default function ProductVenture() {
           </h3>
 
           <p className="text-sm text-textsub mt-1 italic">
-            Founder & Product Builder
+             Product Builder
           </p>
 
           {/* DESCRIPTION */}
