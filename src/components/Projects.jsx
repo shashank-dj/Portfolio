@@ -7,7 +7,7 @@ export default function Projects() {
       Stack: "Python, Streamlit, Pandas, Plotly, ESG Frameworks (CSRD, GRI, SASB, TCFD)",
       desc: "A decision-grade ESG reporting platform that calculates Scope 1–3 emissions, aligns metrics with CSRD, GRI, SASB, and TCFD frameworks, assesses audit readiness and ESG maturity, and translates sustainability performance into financial risk and value signals. The platform introduces an ESG–to–Finance linkage layer, enabling executives to understand how ESG actions impact cost volatility, regulatory risk, and long-term value creation. Designed as a modular, audit-ready ESG intelligence system.",
       link: "https://github.com/shashank-dj/esg-reporting-ai",
-      dashboard: "https://esg-reporting-ai.streamlit.app/"
+      dashboard: "https://esg-reporting-ai-shashank-tk.streamlit.app/"
     },
     {
       title: "Sustainable Performance Optimization in Formula 1",
@@ -77,3 +77,4 @@ export default function Projects() {
     </section>
   );
 }
+
