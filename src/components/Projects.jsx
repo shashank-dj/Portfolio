@@ -3,11 +3,11 @@ import React from "react";
 export default function Projects() {
   const projects = [
     {
-      title: "ESG F1 Copilot – LLM-powered Sustainability Intelligence",
-      Stack: "Python, Streamlit, HuggingFace (FLAN-T5), TF-IDF, Pandas, NumPy",
-      desc: "An LLM-powered sustainability assistant combined with a data-driven dashboard that translates Formula 1 race telemetry into corporate ESG insights. The system uses a retrieval-augmented approach to ground AI responses in curated ESG knowledge and live race metrics, demonstrating how operational efficiency, resource optimization, and strategic decision-making impact sustainability outcomes. Designed as a zero-cost, deployable ESG decision-support prototype.",
-      link: "https://github.com/shashank-dj/Sustainability-copilot",
-      dashboard: "https://sustainability-copilot-shashank-tk.streamlit.app/"
+      title: "ESG Reporting & Finance Intelligence Platform (CSRD-Ready)",
+      Stack: "Python, Streamlit, Pandas, Plotly, ESG Frameworks (CSRD, GRI, SASB, TCFD)",
+      desc: "A decision-grade ESG reporting platform that calculates Scope 1–3 emissions, aligns metrics with CSRD, GRI, SASB, and TCFD frameworks, assesses audit readiness and ESG maturity, and translates sustainability performance into financial risk and value signals. The platform introduces an ESG–to–Finance linkage layer, enabling executives to understand how ESG actions impact cost volatility, regulatory risk, and long-term value creation. Designed as a modular, audit-ready ESG intelligence system.",
+      link: "https://github.com/shashank-dj/esg-reporting-ai",
+      dashboard: "https://esg-reporting-ai.streamlit.app/"
     },
     {
       title: "Sustainable Performance Optimization in Formula 1",
@@ -48,7 +48,6 @@ export default function Projects() {
               Stack: {p.Stack}
             </p>
 
-            {/* BUTTONS */}
             <div className="flex gap-4 mt-5">
               {p.link && (
                 <a
@@ -78,4 +77,3 @@ export default function Projects() {
     </section>
   );
 }
-
