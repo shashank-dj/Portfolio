@@ -25,7 +25,7 @@ export default function Hero() {
         and cloud-based industrial systems. I have contributed to LLM-powered
         search features, smart manufacturing projects, and research across
         robotics, ESG technology, and applied machine learning. 
-        With multiple international research publications and an upcoming MSc in
+        With multiple international research publications and a currently studying MSc in
         Sustainability Management at SDA Bocconi, I bring together engineering,
         AI, and data-driven problem-solving to build scalable, impactful solutions.
       </p>
@@ -47,3 +47,4 @@ export default function Hero() {
     </section>
   );
 }
+
