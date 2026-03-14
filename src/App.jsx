@@ -10,7 +10,7 @@ import CaseStudies from "./pages/CaseStudies";
 import Ventures from "./pages/Ventures";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResearchPage from "./pages/ResearchPage";
-import Experience from "./pages/ExperiencePage";
+import ExperiencePage from "./pages/ExperiencePage";
 
 
 function App() {
