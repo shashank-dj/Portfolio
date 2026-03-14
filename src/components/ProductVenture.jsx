@@ -1,3 +1,4 @@
+import React from "react";
 export default function ProductVenture() {
   return (
     <section className="py-24 px-6 bg-bgsoft">
@@ -14,7 +15,7 @@ export default function ProductVenture() {
           </h3>
 
           <p className="text-sm text-textsub mt-1 italic">
-             Product Builder
+            Product Builder
           </p>
 
           {/* DESCRIPTION */}
@@ -35,47 +36,35 @@ export default function ProductVenture() {
 
             <p className="text-textsub mb-4">
               Board ESG Intelligence is currently in an early validation
-              phase. I’m looking to collaborate with a small number of
-              people who have direct exposure to ESG governance and
-              board-level decision-making.
+              phase. I’m looking to collaborate with people with exposure
+              to ESG governance and board-level decision-making.
             </p>
-    <section className="bg-dark text-white py-20 px-6">
-
-      <div className="max-w-6xl mx-auto">
-
-        <h2 className="text-4xl font-bold text-center text-primary mb-12">
-          Product Venture
-        </h2>
-
-        <div className="grid md:grid-cols-1 gap-8">
 
             <ul className="list-disc list-inside text-textsub space-y-2">
               <li>
                 <span className="font-medium text-textmain">
                   ESG & Sustainability Professionals
                 </span>{" "}
-                with experience in corporate ESG strategy, reporting,
-                or risk management
+                with experience in ESG strategy or reporting
               </li>
+
               <li>
                 <span className="font-medium text-textmain">
                   Private Equity or Governance Professionals
                 </span>{" "}
-                familiar with LP expectations, board processes, or
-                portfolio oversight
+                familiar with LP expectations and board processes
               </li>
+
               <li>
                 <span className="font-medium text-textmain">
                   Product-minded Engineers
                 </span>{" "}
-                interested in governance, sustainability, or enterprise
-                software (for future pilot development)
+                interested in governance, sustainability, or enterprise software
               </li>
             </ul>
 
             <p className="text-textsub mt-4 text-sm">
-              The focus at this stage is collaborative validation and
-              refinement — not fundraising or rapid scaling.
+              The focus at this stage is collaborative validation and refinement.
             </p>
 
             <p className="text-textsub mt-3 text-sm italic">
@@ -109,19 +98,17 @@ export default function ProductVenture() {
             </a>
 
             <a
-              href="https://docs.google.com/document/d/1QJofjPtpwGQ8jSHTaRk7pD1TKxxlYpQIq000gaJg3Qs/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1QJofjPtpwGQ8jSHTaRk7pD1TKxxlYpQIq000gaJg3Qs/edit"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition"
             >
               Product Documentation
             </a>
-         </div>
+          </div>
 
         </div>
-
       </div>
-
     </section>
   );
 }
