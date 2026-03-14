@@ -6,7 +6,7 @@ export default function Hero() {
 
       {/* ⭐ PROFILE IMAGE (PUT YOUR IMAGE IN /public/profile.png) */}
       <img
-        src="/profile.jpg"
+        src="/_ALE3719.jpg"
         alt="Shashank profile"
         className="w-40 h-40 rounded-full mx-auto mb-6 object-cover border-4 border-primary"
       />
