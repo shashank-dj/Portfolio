@@ -15,7 +15,7 @@ export default function Hero() {
       </h1>
 
       <h2 className="text-xl text-primary mb-6">
-        AI Product Builder • Industrial AI • Sustainability Technology
+        AI Product Management • Industrial AI • Sustainability Technology
       </h2>
 
       <p className="max-w-2xl mx-auto text-gray-300 leading-relaxed">
