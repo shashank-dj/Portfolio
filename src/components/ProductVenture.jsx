@@ -1,7 +1,44 @@
-import React from "react";
-
 export default function ProductVenture() {
   return (
+    <section className="py-24 px-6 bg-bgsoft">
+      <h2 className="text-3xl font-bold text-center mb-12 text-primary">
+        Product Venture
+      </h2>
+
+      <div className="max-w-4xl mx-auto">
+        <div className="border border-borderlight rounded-xl p-8 bg-white shadow-sm hover:shadow-md transition-shadow">
+
+          {/* PRODUCT TITLE */}
+          <h3 className="text-2xl font-bold text-primary">
+            Board ESG Intelligence
+          </h3>
+
+          <p className="text-sm text-textsub mt-1 italic">
+             Product Builder
+          </p>
+
+          {/* DESCRIPTION */}
+          <p className="text-textsub mt-6 leading-relaxed">
+            Board ESG Intelligence is a governance-focused ESG decision
+            intelligence platform designed for Private Equity firms and
+            Boards of Directors. The product creates a system of record
+            for board-level ESG decisions, enabling defensible evidence
+            for Limited Partner (LP) reviews, regulatory scrutiny, and
+            exit due diligence.
+          </p>
+
+          {/* COLLABORATORS */}
+          <div className="mt-10">
+            <h4 className="text-lg font-semibold text-primary mb-3">
+              Looking for Collaborators
+            </h4>
+
+            <p className="text-textsub mb-4">
+              Board ESG Intelligence is currently in an early validation
+              phase. I’m looking to collaborate with a small number of
+              people who have direct exposure to ESG governance and
+              board-level decision-making.
+            </p>
     <section className="bg-dark text-white py-20 px-6">
 
       <div className="max-w-6xl mx-auto">
@@ -12,39 +49,74 @@ export default function ProductVenture() {
 
         <div className="grid md:grid-cols-1 gap-8">
 
-          <div className="bg-light text-dark rounded-xl p-10 shadow-lg">
+            <ul className="list-disc list-inside text-textsub space-y-2">
+              <li>
+                <span className="font-medium text-textmain">
+                  ESG & Sustainability Professionals
+                </span>{" "}
+                with experience in corporate ESG strategy, reporting,
+                or risk management
+              </li>
+              <li>
+                <span className="font-medium text-textmain">
+                  Private Equity or Governance Professionals
+                </span>{" "}
+                familiar with LP expectations, board processes, or
+                portfolio oversight
+              </li>
+              <li>
+                <span className="font-medium text-textmain">
+                  Product-minded Engineers
+                </span>{" "}
+                interested in governance, sustainability, or enterprise
+                software (for future pilot development)
+              </li>
+            </ul>
 
-            <h3 className="text-2xl font-bold text-primary mb-4">
-              Board ESG Intelligence
-            </h3>
-
-            <p className="text-gray-700 mb-6">
-              AI-powered decision intelligence platform designed to help
-              executives track sustainability performance, analyze ESG
-              metrics, and make strategic decisions using industrial data.
+            <p className="text-textsub mt-4 text-sm">
+              The focus at this stage is collaborative validation and
+              refinement — not fundraising or rapid scaling.
             </p>
 
-            <p className="text-primary font-medium mb-8">
-              Looking for collaborators
+            <p className="text-textsub mt-3 text-sm italic">
+              If this resonates, feel free to reach out via the contact page.
             </p>
-
-            <div className="flex gap-4 flex-wrap">
-
-              <button className="bg-primary text-white px-6 py-2 rounded-lg">
-                View Concept
-              </button>
-
-              <button className="border border-primary text-primary px-6 py-2 rounded-lg">
-                GitHub
-              </button>
-
-              <button className="border border-primary text-primary px-6 py-2 rounded-lg">
-                Product Roadmap
-              </button>
-
-            </div>
-
           </div>
+
+          {/* STACK */}
+          <p className="text-sm text-textsub mt-8 font-semibold">
+            Stack: React, Tailwind CSS, Product Architecture, ESG Governance
+          </p>
+
+          {/* LINKS */}
+          <div className="flex flex-wrap gap-4 mt-6">
+            <a
+              href="https://board-esg-intelligence.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 bg-primary text-white rounded hover:opacity-90 transition"
+            >
+              Live Product Walkthrough
+            </a>
+
+            <a
+              href="https://github.com/shashank-dj/board-esg-intelligence"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition"
+            >
+              GitHub Repository
+            </a>
+
+            <a
+              href="https://docs.google.com/document/d/1QJofjPtpwGQ8jSHTaRk7pD1TKxxlYpQIq000gaJg3Qs/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition"
+            >
+              Product Documentation
+            </a>
+         </div>
 
         </div>
 
