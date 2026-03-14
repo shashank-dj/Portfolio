@@ -8,7 +8,7 @@ export default function Hero() {
       <img
         src="/_ALE3719.jpg"
         alt="Shashank profile"
-        className="w-40 h-40 rounded-full mx-auto mb-6 object-cover border-4 border-primary"
+        className="w-40 h-40 rounded-full mx-auto mb-6 object-cover object-[center_20%] border-4 border-primary"
       />
 
       <h1 className="text-5xl font-bold mb-4">
