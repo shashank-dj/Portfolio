@@ -11,6 +11,8 @@ export default function Navbar() {
       <Link to="/ventures">Ventures</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/research">Research</Link>
+      <Link to="/experience">Experience</Link>
+
     </nav>
   );
 }
