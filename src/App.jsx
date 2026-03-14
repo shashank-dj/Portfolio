@@ -11,36 +11,29 @@ import Ventures from "./pages/Ventures";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResearchPage from "./pages/ResearchPage";
 
-export default function App() {
-return ( <BrowserRouter>
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="min-h-screen flex flex-col bg-dark text-white">
 
-```
-  <div className="min-h-screen flex flex-col bg-dark text-white">
+        <Navbar />
 
-    {/* Navigation */}
-    <Navbar />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/case-studies" element={<CaseStudies />} />
+            <Route path="/ventures" element={<Ventures />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/research" element={<ResearchPage />} />
+          </Routes>
+        </main>
 
-    {/* Page Content */}
-    <main className="flex-grow">
+        <Footer />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/case-studies" element={<CaseStudies />} />
-        <Route path="/ventures" element={<Ventures />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/research" element={<ResearchPage />} />
-      </Routes>
-
-    </main>
-
-    {/* Footer */}
-    <Footer />
-
-  </div>
-
-</BrowserRouter>
-```
-
-);
+      </div>
+    </BrowserRouter>
+  );
 }
+
+export default App;
