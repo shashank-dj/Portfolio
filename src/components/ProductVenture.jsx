@@ -14,12 +14,12 @@ export default function ProductVenture() {
             Board ESG Intelligence
           </h3>
 
-          <p className="text-sm text-textsub mt-1 italic">
+          <p className="text-sm text-black mt-1 italic">
             Product Builder
           </p>
 
           {/* DESCRIPTION */}
-          <p className="text-textsub mt-6 leading-relaxed">
+          <p className="text-black mt-6 leading-relaxed">
             Board ESG Intelligence is a governance-focused ESG decision
             intelligence platform designed for Private Equity firms and
             Boards of Directors. The product creates a system of record
@@ -34,13 +34,13 @@ export default function ProductVenture() {
               Looking for Collaborators
             </h4>
 
-            <p className="text-textsub mb-4">
+            <p className="text-black mb-4">
               Board ESG Intelligence is currently in an early validation
               phase. I’m looking to collaborate with people with exposure
               to ESG governance and board-level decision-making.
             </p>
 
-            <ul className="list-disc list-inside text-textsub space-y-2">
+            <ul className="list-disc list-inside text-black space-y-2">
               <li>
                 <span className="font-medium text-textmain">
                   ESG & Sustainability Professionals
@@ -63,17 +63,17 @@ export default function ProductVenture() {
               </li>
             </ul>
 
-            <p className="text-textsub mt-4 text-sm">
+            <p className="text-black mt-4 text-sm">
               The focus at this stage is collaborative validation and refinement.
             </p>
 
-            <p className="text-textsub mt-3 text-sm italic">
+            <p className="text-black mt-3 text-sm italic">
               If this resonates, feel free to reach out via the contact page.
             </p>
           </div>
 
           {/* STACK */}
-          <p className="text-sm text-textsub mt-8 font-semibold">
+          <p className="text-sm text-black mt-8 font-semibold">
             Stack: React, Tailwind CSS, Product Architecture, ESG Governance
           </p>
 
