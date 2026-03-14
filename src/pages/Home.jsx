@@ -1,3 +1,4 @@
+import React from "react";
 import Hero from "../components/Hero";
 import ProductVenture from "../components/ProductVenture";
 import Projects from "../components/Projects";
