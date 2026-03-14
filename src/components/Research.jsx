@@ -40,7 +40,7 @@ export default function Research() {
         <div className="p-6 bg-white rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition">
           <div className="flex items-center gap-3 mb-3">
             <Microscope className="text-primary" size={28} />
-            <h3 className="text-xl font-bold">
+            <h3 className="text-xl font-bold text-primary">
               Application of Few-Shot Object Detection in the Field of Robotic Perception
             </h3>
           </div>
