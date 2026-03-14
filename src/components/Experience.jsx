@@ -13,7 +13,7 @@ export default function Experience() {
           <div className="flex items-center gap-3">
             <Briefcase className="text-primary" size={28} />
             <div>
-              <h3 className="text-xl font-bold">Software Developer — AVEVA</h3>
+              <h3 className="text-xl font-bold text-primary">Software Developer — AVEVA</h3>
               <p className="text-gray-600 text-sm">2023 – 2026</p>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function Experience() {
           <div className="flex items-center gap-3">
             <Brain className="text-primary" size={28} />
             <div>
-              <h3 className="text-xl font-bold">AI Researcher & Engineer — CellStrat</h3>
+              <h3 className="text-xl font-bold text-primary">AI Researcher & Engineer — CellStrat</h3>
               <p className="text-gray-600 text-sm">2021 – 2023</p>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Experience() {
           <div className="flex items-center gap-3">
             <Cpu className="text-primary" size={28} />
             <div>
-              <h3 className="text-xl font-bold">
+              <h3 className="text-xl font-bold text-primary">
                 ML Engineer — IIT-AIA Foundation for Smart Manufacturing, Delhi
               </h3>
               <p className="text-gray-600 text-sm">2022</p>
