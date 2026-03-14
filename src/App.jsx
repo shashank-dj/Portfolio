@@ -1,25 +1,30 @@
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Hero from "./components/Hero";
-import ProductVenture from "./components/ProductVenture";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-import Research from "./components/Research";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import CaseStudies from "./pages/CaseStudies";
+import Ventures from "./pages/Ventures";
+import ProjectsPage from "./pages/ProjectsPage";
+import ResearchPage from "./pages/ResearchPage";
+
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <div className="font-sans">
-      <Hero />
-      <ProductVenture />
-      <Projects />
-      <Experience />
-      <Research />
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/ventures" element={<Ventures />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/research" element={<ResearchPage />} />
+      </Routes>
+
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
-
-
-
-
