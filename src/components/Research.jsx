@@ -4,9 +4,7 @@ import { BookOpen, Microscope } from "lucide-react";
 export default function Research() {
   return (
     <section className="py-20 px-6 bg-light">
-      <h2 className="text-3xl font-bold text-center mb-12">
-        Research & Publications
-      </h2>
+
 
       <div className="max-w-4xl mx-auto space-y-10">
 
