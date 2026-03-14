@@ -20,14 +20,15 @@ export default function Hero() {
       </h2>
 
       <p className="max-w-2xl mx-auto text-gray-300 leading-relaxed">
-        I’m a software developer and AI engineer with a foundation in
-        engineering and hands-on experience in computer vision, deep learning,
-        and cloud-based industrial systems. I have contributed to LLM-powered
-        search features, smart manufacturing projects, and research across
-        robotics, ESG technology, and applied machine learning. 
-        With multiple international research publications and a currently studying Master in
-        Sustainability Management at SDA Bocconi, I bring together engineering,
-        AI, and data-driven problem-solving to build scalable, impactful solutions.
+        I’m an engineer and AI builder focused on creating intelligent digital products 
+        that solve real-world industrial and sustainability challenges. With experience 
+        in machine learning, cloud platforms, and industrial data systems, I have worked 
+        on LLM-powered search systems, smart manufacturing solutions, and AI-driven 
+        decision tools.
+        
+        Currently pursuing a Master’s in Sustainability Management at SDA Bocconi, I am 
+        interested in building AI products that combine technology, data, and sustainability 
+        to drive scalable impact across global industries.
       </p>
 
       <div className="mt-8 space-x-4">
