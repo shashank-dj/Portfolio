@@ -4,7 +4,7 @@ import { Briefcase, Cpu, Brain } from "lucide-react";
 export default function Experience() {
   return (
     <section className="py-20 px-6 bg-light">
-      <h2 className="text-3xl font-bold text-center mb-12">Experience</h2>
+      <h2 className="text-3xl font-bold text-center mb-12 text-black">Experience</h2>
 
       <div className="max-w-4xl mx-auto space-y-10">
 
