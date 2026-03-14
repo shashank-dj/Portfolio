@@ -1,5 +1,5 @@
 import React from "react";
-import ProductVenture from "../components/Experience";
+import Experience from "../components/Experience";
 
 export default function Ventures() {
   return (
