@@ -115,26 +115,27 @@ export default function ProductVenture() {
         <div className="border border-borderlight rounded-xl p-8 bg-white shadow-sm hover:shadow-md transition-shadow">
 
           <h3 className="text-2xl font-bold text-primary">
-            Northstar Retail
+            Northstar Retail Intelligence
           </h3>
 
           <p className="text-sm text-black mt-1 italic">
-            AI Product Concept
+            AI Product Builder
           </p>
 
           <p className="text-black mt-6 leading-relaxed">
-            Northstar Retail is an AI-powered decision intelligence system
-            designed for retail operators to monitor store performance and
-            operational health in real time. The platform integrates sales,
-            inventory, staffing, and operational data to generate actionable
-            insights for store managers and regional leaders.
+            Northstar Retail Intelligence is a geospatial retail location
+            intelligence platform designed to help businesses identify the
+            best locations to open new stores. The system analyzes geographic
+            and economic signals to estimate the commercial potential of a
+            location.
           </p>
 
           <p className="text-black mt-4 leading-relaxed">
-            The product focuses on identifying operational risks early —
-            such as declining store performance, inventory imbalances, and
-            staffing inefficiencies — enabling retailers to act quickly and
-            maintain consistent store-level performance across regions.
+            Using a scoring model, Northstar evaluates locations based on
+            multiple parameters such as footfall intensity, household income,
+            retail attractiveness, and competition density. These signals are
+            combined to generate a location score that helps retailers compare
+            potential sites and make data-driven expansion decisions.
           </p>
 
           <div className="mt-8">
@@ -143,24 +144,36 @@ export default function ProductVenture() {
             </h4>
 
             <ul className="list-disc list-inside text-black space-y-2">
-              <li>AI-powered store performance monitoring</li>
-              <li>Early detection of operational issues</li>
-              <li>Cross-store benchmarking and insights</li>
-              <li>Manager decision dashboards</li>
-              <li>Retail operations intelligence</li>
+              <li>Geospatial retail site selection analysis</li>
+              <li>Location scoring based on demand and competition signals</li>
+              <li>Footfall and population-based demand estimation</li>
+              <li>Household income and purchasing power analysis</li>
+              <li>Retail activity and competition density evaluation</li>
+              <li>Interactive dashboard for comparing potential store locations</li>
             </ul>
           </div>
 
           <p className="text-sm text-black mt-8 font-semibold">
-            Stack: AI Product Design, Retail Analytics, Data Visualization, Product Strategy
+            Stack: React, Tailwind CSS, Geospatial Analytics, Data Visualization, Product Strategy
           </p>
 
           <div className="flex flex-wrap gap-4 mt-6">
             <a
-              href="#"
+              href="https://northstar-retail-intelligence.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-4 py-2 bg-primary text-white rounded hover:opacity-90 transition"
             >
-              Case Study
+              Live Dashboard
+            </a>
+
+            <a
+              href="https://github.com/shashank-dj/northstar-retail-intelligence"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition"
+            >
+              GitHub Repository
             </a>
           </div>
 
