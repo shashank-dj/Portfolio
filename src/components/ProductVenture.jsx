@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function ProductVenture() {
   return (
     <section className="py-12 px-6 bg-bgsoft">
@@ -6,10 +7,13 @@ export default function ProductVenture() {
         Product Venture
       </h2>
 
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto space-y-10">
+
+        {/* ============================= */}
+        {/* BOARD ESG INTELLIGENCE */}
+        {/* ============================= */}
         <div className="border border-borderlight rounded-xl p-8 bg-white shadow-sm hover:shadow-md transition-shadow">
 
-          {/* PRODUCT TITLE */}
           <h3 className="text-2xl font-bold text-primary">
             Board ESG Intelligence
           </h3>
@@ -18,7 +22,6 @@ export default function ProductVenture() {
             Product Builder
           </p>
 
-          {/* DESCRIPTION */}
           <p className="text-black mt-6 leading-relaxed">
             Board ESG Intelligence is a governance-focused ESG decision
             intelligence platform designed for Private Equity firms and
@@ -28,7 +31,6 @@ export default function ProductVenture() {
             exit due diligence.
           </p>
 
-          {/* COLLABORATORS */}
           <div className="mt-10">
             <h4 className="text-lg font-semibold text-primary mb-3">
               Looking for Collaborators
@@ -72,12 +74,10 @@ export default function ProductVenture() {
             </p>
           </div>
 
-          {/* STACK */}
           <p className="text-sm text-black mt-8 font-semibold">
             Stack: React, Tailwind CSS, Product Architecture, ESG Governance
           </p>
 
-          {/* LINKS */}
           <div className="flex flex-wrap gap-4 mt-6">
             <a
               href="https://board-esg-intelligence.netlify.app"
@@ -108,6 +108,64 @@ export default function ProductVenture() {
           </div>
 
         </div>
+
+        {/* ============================= */}
+        {/* NORTHSTAR RETAIL */}
+        {/* ============================= */}
+        <div className="border border-borderlight rounded-xl p-8 bg-white shadow-sm hover:shadow-md transition-shadow">
+
+          <h3 className="text-2xl font-bold text-primary">
+            Northstar Retail
+          </h3>
+
+          <p className="text-sm text-black mt-1 italic">
+            AI Product Concept
+          </p>
+
+          <p className="text-black mt-6 leading-relaxed">
+            Northstar Retail is an AI-powered decision intelligence system
+            designed for retail operators to monitor store performance and
+            operational health in real time. The platform integrates sales,
+            inventory, staffing, and operational data to generate actionable
+            insights for store managers and regional leaders.
+          </p>
+
+          <p className="text-black mt-4 leading-relaxed">
+            The product focuses on identifying operational risks early —
+            such as declining store performance, inventory imbalances, and
+            staffing inefficiencies — enabling retailers to act quickly and
+            maintain consistent store-level performance across regions.
+          </p>
+
+          <div className="mt-8">
+            <h4 className="text-lg font-semibold text-primary mb-3">
+              Core Capabilities
+            </h4>
+
+            <ul className="list-disc list-inside text-black space-y-2">
+              <li>AI-powered store performance monitoring</li>
+              <li>Early detection of operational issues</li>
+              <li>Cross-store benchmarking and insights</li>
+              <li>Manager decision dashboards</li>
+              <li>Retail operations intelligence</li>
+            </ul>
+          </div>
+
+          <p className="text-sm text-black mt-8 font-semibold">
+            Stack: AI Product Design, Retail Analytics, Data Visualization, Product Strategy
+          </p>
+
+          <div className="flex flex-wrap gap-4 mt-6">
+            <a
+              href="#"
+              className="px-4 py-2 bg-primary text-white rounded hover:opacity-90 transition"
+            >
+              Case Study
+            </a>
+          </div>
+
+        </div>
+
       </div>
     </section>
   );
