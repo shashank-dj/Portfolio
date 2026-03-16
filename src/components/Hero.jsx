@@ -27,8 +27,10 @@ export default function Hero() {
         <br /><br />
 
         Currently pursuing a Master’s in Sustainability Management at
-        SDA Bocconi School of Management, I focus on designing AI products
-        that enable organizations to operate more intelligently and sustainably.
+        SDA Bocconi School of Management and part of the HelloPM Fellowship
+        (Cohort 50), I focus on developing AI product management capabilities
+        and designing intelligent systems that enable organizations to operate
+        more efficiently and sustainably.
       </p>
 
       <div className="mt-8 space-x-4">
