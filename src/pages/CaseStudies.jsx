@@ -2,117 +2,133 @@ import React from "react";
 
 const CaseStudies = () => {
   return (
-    <div className="px-6 md:px-20 py-12">
-      <h1 className="text-3xl font-bold mb-6">Case Studies</h1>
-
-      <p className="text-gray-600 mb-10 max-w-2xl">
-        A collection of product thinking exercises focused on solving real-world
-        problems using user-centric and business-driven approaches.
-      </p>
-
-      {/* ZOMATO CASE STUDY */}
-      <div className="mb-12 border rounded-2xl p-6 shadow-sm">
-        <h2 className="text-2xl font-semibold mb-2">
-          Improving Food Discovery on Zomato
-        </h2>
-
-        <p className="text-gray-500 mb-4">
-          Reducing decision fatigue and increasing conversion rates.
+    <div className="px-6 md:px-20 py-16 bg-[#0B1A2B] min-h-screen text-white">
+      
+      {/* HEADER */}
+      <div className="mb-12">
+        <h1 className="text-4xl font-bold mb-4">Case Studies</h1>
+        <p className="text-gray-400 max-w-2xl">
+          A collection of product thinking exercises focused on solving real-world
+          problems using user-centric and business-driven approaches.
         </p>
-
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-semibold">Problem</h3>
-            <p className="text-gray-600">
-              Users face difficulty choosing what to eat due to too many options,
-              leading to drop-offs.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="font-semibold">Solution</h3>
-            <p className="text-gray-600">
-              Introduced AI-based recommendations, mood filters, and one-click reorder
-              to simplify decision-making.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="font-semibold">Impact</h3>
-            <p className="text-gray-600">
-              Increased conversion rate, reduced decision time, and improved user retention.
-            </p>
-          </div>
-        </div>
       </div>
 
-      {/* SUSTAINABILITY AI CASE */}
-      <div className="mb-12 border rounded-2xl p-6 shadow-sm">
-        <h2 className="text-2xl font-semibold mb-2">
-          AI-driven Sustainability Platform
-        </h2>
+      {/* CARD */}
+      <div className="space-y-10">
 
-        <p className="text-gray-500 mb-4">
-          Helping industries track emissions and optimize sustainability.
-        </p>
+        {/* ZOMATO */}
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-md hover:border-blue-500 transition duration-300">
+          
+          <h2 className="text-2xl font-semibold text-blue-400 mb-2">
+            Improving Food Discovery on Zomato
+          </h2>
 
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-semibold">Problem</h3>
-            <p className="text-gray-600">
-              Industries lack real-time insights into emissions and sustainability performance.
-            </p>
-          </div>
+          <p className="text-gray-400 mb-6">
+            Reducing decision fatigue and increasing conversion rates.
+          </p>
 
-          <div>
-            <h3 className="font-semibold">Solution</h3>
-            <p className="text-gray-600">
-              Built an AI system that analyzes industrial data, weather, and raw materials
-              to generate emission insights and targets.
-            </p>
-          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            
+            <div>
+              <h3 className="text-sm font-semibold text-white mb-2">Problem</h3>
+              <p className="text-gray-400 text-sm">
+                Users struggle to decide what to eat due to too many options,
+                leading to drop-offs.
+              </p>
+            </div>
 
-          <div>
-            <h3 className="font-semibold">Impact</h3>
-            <p className="text-gray-600">
-              Enables data-driven ESG decisions and reduces environmental impact.
-            </p>
-          </div>
-        </div>
-      </div>
+            <div>
+              <h3 className="text-sm font-semibold text-white mb-2">Solution</h3>
+              <p className="text-gray-400 text-sm">
+                AI-powered recommendations, mood filters, and one-click reorder
+                to simplify decision-making.
+              </p>
+            </div>
 
-      {/* LLM CASE STUDY */}
-      <div className="border rounded-2xl p-6 shadow-sm">
-        <h2 className="text-2xl font-semibold mb-2">
-          Reducing Hallucinations in LLM Systems
-        </h2>
+            <div>
+              <h3 className="text-sm font-semibold text-white mb-2">Impact</h3>
+              <p className="text-gray-400 text-sm">
+                Increased conversion rate, reduced decision time, and improved retention.
+              </p>
+            </div>
 
-        <p className="text-gray-500 mb-4">
-          Improving reliability of AI-generated outputs.
-        </p>
-
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-semibold">Problem</h3>
-            <p className="text-gray-600">
-              LLMs produce incorrect outputs due to poor input data (GIGO problem).
-            </p>
-          </div>
-
-          <div>
-            <h3 className="font-semibold">Solution</h3>
-            <p className="text-gray-600">
-              Added validation layers, semantic filtering, and feedback loops to improve accuracy.
-            </p>
-          </div>
-
-          <div>
-            <h3 className="font-semibold">Impact</h3>
-            <p className="text-gray-600">
-              Reduced hallucination rate and improved trust in AI systems.
-            </p>
           </div>
         </div>
+
+        {/* SUSTAINABILITY */}
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-md hover:border-green-500 transition duration-300">
+          
+          <h2 className="text-2xl font-semibold text-green-400 mb-2">
+            AI-driven Sustainability Platform
+          </h2>
+
+          <p className="text-gray-400 mb-6">
+            Helping industries track emissions and optimize sustainability.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            
+            <div>
+              <h3 className="text-sm font-semibold mb-2">Problem</h3>
+              <p className="text-gray-400 text-sm">
+                Lack of real-time insights into emissions and sustainability metrics.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold mb-2">Solution</h3>
+              <p className="text-gray-400 text-sm">
+                AI system combining industrial data, weather, and materials to generate insights.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold mb-2">Impact</h3>
+              <p className="text-gray-400 text-sm">
+                Enables ESG decision-making and reduces environmental impact.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        {/* LLM */}
+        <div className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-md hover:border-purple-500 transition duration-300">
+          
+          <h2 className="text-2xl font-semibold text-purple-400 mb-2">
+            Reducing Hallucinations in LLM Systems
+          </h2>
+
+          <p className="text-gray-400 mb-6">
+            Improving reliability of AI-generated outputs.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            
+            <div>
+              <h3 className="text-sm font-semibold mb-2">Problem</h3>
+              <p className="text-gray-400 text-sm">
+                AI models generate incorrect outputs due to poor input data quality.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold mb-2">Solution</h3>
+              <p className="text-gray-400 text-sm">
+                Validation layers, semantic filtering, and feedback loops.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold mb-2">Impact</h3>
+              <p className="text-gray-400 text-sm">
+                Reduced hallucination rate and improved trust in AI systems.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </div>
   );
