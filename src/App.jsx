@@ -11,6 +11,7 @@ import Ventures from "./pages/Ventures";
 import ProjectsPage from "./pages/ProjectsPage";
 import ResearchPage from "./pages/ResearchPage";
 import ExperiencePage from "./pages/ExperiencePage";
+import ZomatoCaseStudy from "./pages/caseStudies/Zomato";
 
 
 function App() {
