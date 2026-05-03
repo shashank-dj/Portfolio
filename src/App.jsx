@@ -30,6 +30,7 @@ function App() {
             <Route path="/research" element={<ResearchPage />} />
             <Route path="/experience" element={<ExperiencePage />} />
             <Route path="/case-studies" element={<CaseStudies />} />
+            <Route path="/case-studies/zomato" element={<ZomatoCaseStudy />} />
           </Routes>
         </main>
 
