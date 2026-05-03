@@ -8,10 +8,7 @@ const CaseStudies = () => {
       {/* HEADER */}
       <div className="mb-12">
         <h1 className="text-4xl font-bold mb-4">Case Studies</h1>
-        <p className="text-gray-400 max-w-2xl">
-          A collection of product thinking exercises focused on solving real-world
-          problems using user-centric and business-driven approaches.
-        </p>
+
       </div>
 
       {/* GRID LAYOUT */}
@@ -46,9 +43,7 @@ const CaseStudies = () => {
                 recommendations and faster decision flows.
               </p>
 
-              <p className="text-red-400 text-sm mt-4">
-                View Case Study →
-              </p>
+
 
             </div>
           </div>
