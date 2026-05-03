@@ -31,17 +31,14 @@ const CaseStudies = () => {
             <div className="p-6">
 
               <h2 className="text-xl font-semibold text-red-400 mb-2">
-                Improving Food Discovery on Zomato
+                Reducing Cart Abandonment by Improving Price Transparency on Zomato
               </h2>
 
               <p className="text-gray-400 text-sm mb-4">
-                Reducing decision fatigue and increasing conversion rates.
+                Improved Zomato’s checkout conversion by addressing hidden fee friction through a data-driven pricing transparency solution, reducing cart abandonment and increasing average order value.
               </p>
 
-              <p className="text-gray-400 text-sm">
-                Users struggle to choose from too many options → introducing AI-based
-                recommendations and faster decision flows.
-              </p>
+
 
 
 
