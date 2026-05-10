@@ -84,8 +84,13 @@ export default function About() {
                   <a href="https://linkedin.com/in/shashank-tk" target="_blank" rel="noreferrer" className="btn-primary text-sm py-2.5 px-5">
                     LinkedIn <ArrowUpRight size={13} />
                   </a>
-                  <a href="#" className="btn-ghost text-sm py-2.5 px-5">
-                    <Download size={13} /> Resume
+                  <a
+                    href="/Resume.pdf"
+                    download="Shashank_TK_Resume.pdf"
+                    className="btn-ghost text-sm py-2.5 px-5"
+                  >
+                    <Download size={13} />
+                    Resume
                   </a>
                 </div>
               </Rev>
