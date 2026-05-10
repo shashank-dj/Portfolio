@@ -13,7 +13,7 @@ import ProjectsPage   from './pages/ProjectsPage';
 import ResearchPage   from './pages/ResearchPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ZomatoCaseStudy from './pages/caseStudies/Zomato';
-import CargillCaseStudy from './pages/caseStudies/Cargill';
+import CargillCaseStudy from './pages/caseStudies/cargill';
 
 /* Scroll to top on every navigation */
 function ScrollReset() {
