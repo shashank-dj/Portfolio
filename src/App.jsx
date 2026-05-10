@@ -13,6 +13,7 @@ import ProjectsPage   from './pages/ProjectsPage';
 import ResearchPage   from './pages/ResearchPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ZomatoCaseStudy from './pages/caseStudies/Zomato';
+import CargillCaseStudy from './pages/caseStudies/Cargill';
 
 /* Scroll to top on every navigation */
 function ScrollReset() {
@@ -38,6 +39,7 @@ function AppInner() {
           <Route path="/projects"            element={<ProjectsPage />} />
           <Route path="/research"            element={<ResearchPage />} />
           <Route path="/experience"          element={<ExperiencePage />} />
+          <Route path="/case-studies/cargill" element={<CargillCaseStudy />} />
         </Routes>
       </main>
 
