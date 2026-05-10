@@ -69,7 +69,7 @@ export default function Navbar() {
           {/* CTA + hamburger */}
           <div className="flex items-center gap-3">
             <a
-              href="mailto:shashank.tk@example.com"
+              href="https://linkedin.com/in/shashank-tk"
               className="hidden md:inline-flex items-center gap-2 px-4 py-2 bg-cyan-DEFAULT/10 hover:bg-cyan-DEFAULT/20 border border-cyan-DEFAULT/25 hover:border-cyan-DEFAULT/40 text-cyan-DEFAULT text-sm font-medium rounded-lg transition-all duration-200 font-jakarta"
             >
               Let's talk
