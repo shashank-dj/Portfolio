@@ -1,45 +1,55 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar         from './components/Navbar';
+import Footer         from './components/Footer';
+import Cursor         from './components/Cursor';
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import CaseStudies from "./pages/CaseStudies";
-import Ventures from "./pages/Ventures";
-import ProjectsPage from "./pages/ProjectsPage";
-import ResearchPage from "./pages/ResearchPage";
-import ExperiencePage from "./pages/ExperiencePage";
-import ZomatoCaseStudy from "./pages/caseStudies/Zomato";
+import Home           from './pages/Home';
+import About          from './pages/About';
+import CaseStudies    from './pages/CaseStudies';
+import Ventures       from './pages/Ventures';
+import ProjectsPage   from './pages/ProjectsPage';
+import ResearchPage   from './pages/ResearchPage';
+import ExperiencePage from './pages/ExperiencePage';
+import ZomatoCaseStudy from './pages/caseStudies/Zomato';
 
+/* Scroll to top on every navigation */
+function ScrollReset() {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo({ top: 0, behavior: 'instant' }); }, [pathname]);
+  return null;
+}
 
-function App() {
+function AppInner() {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen flex flex-col bg-dark text-white">
+    <div className="min-h-screen flex flex-col bg-void text-zinc-100 font-jakarta">
+      <Cursor />
+      <ScrollReset />
+      <Navbar />
 
-        <Navbar />
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/"                    element={<Home />} />
+          <Route path="/about"               element={<About />} />
+          <Route path="/case-studies"        element={<CaseStudies />} />
+          <Route path="/case-studies/zomato" element={<ZomatoCaseStudy />} />
+          <Route path="/ventures"            element={<Ventures />} />
+          <Route path="/projects"            element={<ProjectsPage />} />
+          <Route path="/research"            element={<ResearchPage />} />
+          <Route path="/experience"          element={<ExperiencePage />} />
+        </Routes>
+      </main>
 
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/case-studies" element={<CaseStudies />} />
-            <Route path="/ventures" element={<Ventures />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/research" element={<ResearchPage />} />
-            <Route path="/experience" element={<ExperiencePage />} />
-            <Route path="/case-studies" element={<CaseStudies />} />
-            <Route path="/case-studies/zomato" element={<ZomatoCaseStudy />} />
-          </Routes>
-        </main>
-
-        <Footer />
-
-      </div>
-    </BrowserRouter>
+      <Footer />
+    </div>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppInner />
+    </BrowserRouter>
+  );
+}
