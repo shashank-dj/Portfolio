@@ -14,6 +14,7 @@ import ResearchPage   from './pages/ResearchPage';
 import ExperiencePage from './pages/ExperiencePage';
 import ZomatoCaseStudy from './pages/caseStudies/Zomato';
 import CargillCaseStudy from './pages/caseStudies/cargill';
+import CursorPMCaseStudy from './pages/caseStudies/CursorPM';
 
 /* Scroll to top on every navigation */
 function ScrollReset() {
@@ -40,6 +41,7 @@ function AppInner() {
           <Route path="/research"            element={<ResearchPage />} />
           <Route path="/experience"          element={<ExperiencePage />} />
           <Route path="/case-studies/cargill" element={<CargillCaseStudy />} />
+          <Route path="/case-studies/cursor-pm" element={<CursorPMCaseStudy />} />
         </Routes>
       </main>
 

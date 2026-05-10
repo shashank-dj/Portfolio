@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, Users, TrendingUp, Lightbulb } from 'lucide-react';
+import { ArrowUpRight, Users, TrendingUp, Lightbulb, Database, Brain, Target } from 'lucide-react';
 
 function Rev({ children, delay = 0, className = '' }) {
   const ref = useRef(null);
@@ -56,6 +56,30 @@ const STUDIES = [
       'Innovation Ecosystem',
     ],
     year: '2025',
+  },
+  {
+    to: '/case-studies/cursor-pm',
+    image: '/cursorpm.png',
+    company: 'Cursor PM',
+    color: 'border-cyan-400/20 hover:border-cyan-400/40',
+    accent: 'text-cyan-DEFAULT',
+    pill: 'text-cyan-DEFAULT bg-cyan-DEFAULT/10 border-cyan-DEFAULT/25',
+    tag: 'AI Product Infrastructure',
+    title: 'Designing an AI Evidence Upload Pipeline for PM Decision-Making',
+    summary:
+      'Built an AI-native evidence ingestion workflow transforming scattered customer feedback into structured product intelligence for faster roadmap decisions.',
+    stats: [
+      { icon: Database, v: '4', l: 'Input formats' },
+      { icon: Brain, v: 'AI', l: 'Clustering engine' },
+      { icon: Target, v: 'P0', l: 'MVP feature' },
+    ],
+    methods: [
+      'AI Workflow Design',
+      'Product Strategy',
+      'Opportunity Discovery',
+      'Information Architecture',
+    ],
+    year: '2026',
   },
 ];
 
