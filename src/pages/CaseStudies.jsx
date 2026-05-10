@@ -33,6 +33,30 @@ const STUDIES = [
     methods: ['User Research', 'RICE Framework', 'Prototyping', 'Metrics Definition'],
     year:    '2024',
   },
+  {
+    to: '/case-studies/cargill',
+    image: '/cargill.png',
+    company: 'Cargill',
+    color: 'border-green-400/20 hover:border-green-400/40',
+    accent: 'text-green-400',
+    pill: 'text-green-400 bg-green-400/10 border-green-400/25',
+    tag: 'AgriTech & Innovation Strategy',
+    title: 'Building AgLab — Attracting Gen Z Talent into FarmTech',
+    summary:
+      'Designed a digital innovation ecosystem helping Cargill attract young AI and agri-tech talent through sustainability datasets, university partnerships, and innovation challenges.',
+    stats: [
+      { icon: Users, v: '500+', l: 'Student registrations' },
+      { icon: TrendingUp, v: '100+', l: 'Innovation submissions' },
+      { icon: Lightbulb, v: '10+', l: 'University partnerships' },
+    ],
+    methods: [
+      'Market Research',
+      'Strategy Design',
+      'Platform Thinking',
+      'Innovation Ecosystem',
+    ],
+    year: '2025',
+  },
 ];
 
 export default function CaseStudies() {
