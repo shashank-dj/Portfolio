@@ -81,6 +81,30 @@ const STUDIES = [
     ],
     year: '2026',
   },
+  {
+    to: '/case-studies/jules',
+    image: '/jules.png',
+    company: 'Google Jules',
+    color: 'border-cyan-400/20 hover:border-cyan-400/40',
+    accent: 'text-cyan-400',
+    pill: 'text-cyan-400 bg-cyan-400/10 border-cyan-400/25',
+    tag: 'AI Engineering Systems',
+    title: 'Jules — Building the Engineering Operating System',
+    summary:
+      'A strategic teardown of Google’s autonomous coding agent analyzing async engineering workflows, trust systems, enterprise governance, and multi-agent orchestration.',
+    stats: [
+      { icon: Brain, v: 'AI', l: 'Autonomous agents' },
+      { icon: Database, v: 'P0', l: 'Trust infrastructure' },
+      { icon: Target, v: '3', l: 'Market waves analyzed' },
+    ],
+    methods: [
+      'JTBD Analysis',
+      'RICE Prioritization',
+      'Enterprise Strategy',
+      'AI Workflow Design',
+    ],
+    year: '2026',
+  },
 ];
 
 export default function CaseStudies() {
