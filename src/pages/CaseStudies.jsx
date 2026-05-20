@@ -83,7 +83,7 @@ const STUDIES = [
   },
   {
     to: '/case-studies/jules',
-    image: '/jules.png',
+    image: '/jules.jfif',
     company: 'Google Jules',
     color: 'border-cyan-400/20 hover:border-cyan-400/40',
     accent: 'text-cyan-400',
