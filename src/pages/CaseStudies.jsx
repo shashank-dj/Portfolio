@@ -224,7 +224,7 @@ export default function CaseStudies() {
           <Rev delay={200}>
             <div className="mt-10 glass p-8 text-center border border-dashed border-white/10">
               <p className="font-mono text-xs text-zinc-700 uppercase tracking-widest mb-2">More Coming</p>
-              <p className="text-zinc-500 font-jakarta text-sm">Additional case studies in progress — Board ESG Intelligence and Northstar Retail Intelligence.</p>
+              <p className="text-zinc-500 font-jakarta text-sm">Additional case studies with prototypes are in progress</p>
             </div>
           </Rev>
 
