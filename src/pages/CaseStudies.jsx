@@ -129,6 +129,30 @@ const STUDIES = [
     ],
     year: '2026',
   },
+  {
+    to: '/case-studies/fireflies',
+    image: '/fireflies.jfif',
+    company: 'Fireflies.ai',
+    color: 'border-pink-400/20 hover:border-pink-400/40',
+    accent: 'text-pink-400',
+    pill: 'text-pink-400 bg-pink-400/10 border-pink-400/25',
+    tag: 'AI Meeting Intelligence & Product Strategy',
+    title: 'Solving Trust, Privacy & AI Monetization Challenges in Fireflies.ai',
+    summary:
+      'Conducted an end-to-end product UX research and strategic PM analysis of Fireflies.ai, identifying critical user trust breakdowns, pricing friction, transcription quality gaps, and roadmap opportunities across AI meeting intelligence workflows.',
+    stats: [
+      { icon: Users, v: '725+', l: 'Reviews analysed' },
+      { icon: Brain, v: 'P0', l: 'Privacy crisis response' },
+      { icon: TrendingUp, v: '20M+', l: 'Users impacted' },
+    ],
+    methods: [
+      'UX Research',
+      'RICE Prioritization',
+      '5 Whys Analysis',
+      'AI Product Strategy',
+    ],
+    year: '2026',
+  },
 ];
 
 export default function CaseStudies() {
@@ -224,7 +248,7 @@ export default function CaseStudies() {
           <Rev delay={200}>
             <div className="mt-10 glass p-8 text-center border border-dashed border-white/10">
               <p className="font-mono text-xs text-zinc-700 uppercase tracking-widest mb-2">More Coming</p>
-              <p className="text-zinc-500 font-jakarta text-sm">Additional case studies with prototypes are in progress</p>
+              <p className="text-zinc-500 font-jakarta text-sm">Additional case studies in progress — Board ESG Intelligence and Northstar Retail Intelligence.</p>
             </div>
           </Rev>
 

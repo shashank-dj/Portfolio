@@ -17,6 +17,7 @@ import CargillCaseStudy from './pages/caseStudies/cargill';
 import CursorPMCaseStudy from './pages/caseStudies/CursorPM';
 import JulesCaseStudy from './pages/caseStudies/Jules';
 import NShiftCaseStudy from './pages/caseStudies/nShift';
+import FirefliesCaseStudy from './pages/caseStudies/Fireflies';
 
 /* Scroll to top on every navigation */
 function ScrollReset() {
@@ -45,7 +46,9 @@ function AppInner() {
           <Route path="/case-studies/cargill" element={<CargillCaseStudy />} />
           <Route path="/case-studies/cursor-pm" element={<CursorPMCaseStudy />} />
           <Route path="/case-studies/jules" element={<JulesCaseStudy />} />     
-          <Route path="/case-studies/nShift" element={<NShiftCaseStudy />} />     
+          <Route path="/case-studies/nShift" element={<NShiftCaseStudy />} />  
+          <Route path="/case-studies/fireflies" element={<FirefliesCaseStudy />}
+          />   
         </Routes>
       </main>
 
