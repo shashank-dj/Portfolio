@@ -80,7 +80,7 @@ export default function ProductVenture() {
 
           <div className="flex flex-wrap gap-4 mt-6">
             <a
-              href="https://board-esg-intelligence.netlify.app"
+              href="https://board-esg-intelligence-system.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-primary text-white rounded hover:opacity-90 transition"
