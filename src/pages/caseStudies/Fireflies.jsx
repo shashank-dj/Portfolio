@@ -4,30 +4,30 @@ const Fireflies = () => {
   const executiveSummary = [
     {
       severity: "P0 — Critical",
-      title: "Privacy & Consent Concerns",
+      title: "Privacy & Consent Experience",
       description:
-        "Customer feedback and public discussions highlighted concerns around meeting consent visibility, automated bot behavior, and enterprise trust expectations.",
+        "Customer feedback and public discussions highlighted concerns around meeting consent visibility, onboarding defaults, and enterprise trust expectations.",
       status: "Trust & Compliance Risk",
     },
     {
       severity: "P1 — High",
       title: "Opaque AI Credit Pricing",
       description:
-        "Unlimited pricing ambiguity and unclear AI credit consumption creating monetization friction for users.",
+        "AI credit consumption and monetization clarity created friction for power users and SMB teams.",
       status: "Revenue & Retention Risk",
     },
     {
       severity: "P1 — High",
-      title: "Transcription Quality Issues",
+      title: "Transcription Reliability Issues",
       description:
         "Accuracy degradation with accents, jargon, overlapping speakers, and noisy environments.",
       status: "Core Product Reliability Risk",
     },
     {
       severity: "P2 — Medium",
-      title: "Generic AI Summaries",
+      title: "Limited Workflow Intelligence",
       description:
-        "Limited contextual understanding and lack of workflow-aware post-meeting intelligence.",
+        "AI summaries lacked contextual understanding and meeting-type awareness across workflows.",
       status: "Differentiation Gap",
     },
   ];
@@ -35,7 +35,7 @@ const Fireflies = () => {
   const painPoints = [
     {
       id: "P1",
-      title: "Bot joins meetings without clear participant awareness",
+      title: "Users unclear about meeting recording behavior",
       frequency: "High",
       severity: "5/5",
       persona: "Enterprise Admins, HR, Clients",
@@ -59,7 +59,7 @@ const Fireflies = () => {
     },
     {
       id: "P4",
-      title: "Privacy & data policy concerns",
+      title: "Privacy & consent transparency concerns",
       frequency: "High",
       severity: "5/5",
       persona: "Enterprise, Legal",
@@ -106,7 +106,7 @@ const Fireflies = () => {
       priority: "P1 — Immediate",
     },
     {
-      feature: "Privacy & Consent UX Overhaul",
+      feature: "Consent & Recording Transparency UX",
       score: 135,
       priority: "P0 — Critical",
     },
@@ -130,7 +130,7 @@ const Fireflies = () => {
   const roadmap = [
     {
       phase: "NOW",
-      title: "Consent-First Bot Controls",
+      title: "Consent-First Recording Controls",
       timeline: "Weeks 0–4",
       kpi:
         "Expected KPI Impact: Reduction in privacy-related support tickets",
@@ -195,11 +195,11 @@ const Fireflies = () => {
       otter: "Limited",
     },
     {
-      capability: "Privacy / Bot-Free Mode",
-      fireflies: "Needs Improvement",
-      tldv: "Decent",
-      gong: "Decent",
-      otter: "Decent",
+      capability: "Bot-Free Recording Options",
+      fireflies: "Available",
+      tldv: "Partial",
+      gong: "Partial",
+      otter: "Limited",
     },
   ];
 
@@ -302,26 +302,33 @@ const Fireflies = () => {
               <p>
                 With a <span className="text-white font-semibold">4.8/5 G2 rating</span>
                 across <span className="text-white font-semibold">725+ reviews</span>,
-                <span className="text-white font-semibold"> 20M+ users</span>,
+                <span className="text-white font-semibold">20M+ users</span>,
                 and adoption across
-                <span className="text-white font-semibold"> 500K+ organisations</span>,
+                <span className="text-white font-semibold">500K+ organisations</span>,
                 the platform established itself as a category leader.
               </p>
 
               <p>
                 Its rapid growth was driven by frictionless onboarding,
-                automated note-taking, searchable meeting archives, AI-generated
-                summaries, and integrations across Zoom, Google Meet, Slack,
+                automated note-taking, searchable meeting archives,
+                AI-generated summaries, configurable bot workflows,
+                and integrations across Zoom, Google Meet, Slack,
                 Notion, CRM systems, and productivity workflows.
               </p>
 
               <p>
-                However, despite strong adoption and unicorn-scale valuation,
-                customer feedback across review platforms revealed recurring
-                concerns around privacy transparency, monetization clarity,
-                transcription reliability, and workflow depth — signaling
-                potential risks to enterprise trust, retention, and long-term
-                platform credibility at scale.
+                The platform also supports multiple recording workflows,
+                including configurable auto-join controls, participant
+                notifications, and bot-free recording experiences across
+                desktop, browser, and mobile surfaces.
+              </p>
+
+              <p>
+                However, customer feedback across review platforms revealed
+                recurring concerns around privacy transparency,
+                monetization clarity, transcription reliability, and workflow
+                depth — signaling potential risks to enterprise trust,
+                retention, and long-term platform credibility at scale.
               </p>
             </div>
           </div>
@@ -443,6 +450,56 @@ const Fireflies = () => {
             </div>
 
           </div>
+        </div>
+      </section>
+
+      {/* EXECUTIVE SUMMARY */}
+
+      <section className="max-w-6xl mx-auto mb-24">
+        <div className="flex items-center justify-between flex-wrap gap-5 mb-12">
+          <div>
+            <p className="text-orange-400 text-sm font-semibold mb-3 uppercase tracking-widest">
+              Key Findings
+            </p>
+
+            <h2 className="text-4xl font-bold">
+              Executive Summary
+            </h2>
+          </div>
+
+          <div className="text-zinc-500 max-w-md">
+            Customer feedback patterns suggest recurring concerns around
+            privacy transparency, workflow depth, and monetization clarity.
+          </div>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {executiveSummary.map((item, index) => (
+            <div
+              key={index}
+              className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 hover:border-zinc-700 transition-all"
+            >
+              <div
+                className={`inline-block px-3 py-1 rounded-full text-sm mb-5 ${getBadgeColor(
+                  item.severity
+                )}`}
+              >
+                {item.severity}
+              </div>
+
+              <h3 className="text-2xl font-semibold mb-4">
+                {item.title}
+              </h3>
+
+              <p className="text-zinc-400 leading-relaxed mb-6">
+                {item.description}
+              </p>
+
+              <div className="text-sm text-zinc-500">
+                Status: {item.status}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </div>
