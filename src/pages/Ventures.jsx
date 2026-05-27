@@ -37,7 +37,7 @@ const VENTURES = [
     ],
     tags:  ['React', 'Tailwind', 'ESG Governance', 'Private Equity', 'Product Strategy'],
     links: [
-      { label: 'Live Walkthrough', href: 'https://board-esg-intelligence.netlify.app', primary: true },
+      { label: 'Live Walkthrough', href: 'https://board-esg-intelligence-system.netlify.app/', primary: true },
       { label: 'GitHub',          href: 'https://github.com/shashank-dj/board-esg-intelligence' },
       { label: 'Documentation',   href: 'https://docs.google.com/document/d/1QJofjPtpwGQ8jSHTaRk7pD1TKxxlYpQIq000gaJg3Qs/edit' },
     ],
