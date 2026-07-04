@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight, Users, TrendingUp, Lightbulb, Database, Brain, Target } from 'lucide-react';
+import { ArrowUpRight, Users, TrendingUp, Lightbulb, Database, Brain, Target, DollarSign } from 'lucide-react';
 
 function Rev({ children, delay = 0, className = '' }) {
   const ref = useRef(null);
@@ -152,6 +152,29 @@ const STUDIES = [
       'AI Product Strategy',
     ],
     year: '2026',
+  },
+  {
+    to:      '/case-studies/amazon-seller-dashboard',
+    image:   '/amazonSeller.svg',
+    company: 'Amazon Seller Dashboard',
+    color:   'border-amber-400/20 hover:border-amber-400/40',
+    accent:  'text-amber-400',
+    pill:    'text-amber-400 bg-amber-400/10 border-amber-400/25',
+    tag:     'Product Analytics & Dashboard Design',
+    title:   'Showing Sellers Why Sales Changed, Not Just That They Did',
+    summary: 'Designed a seller dashboard built around one north-star metric — Contribution Margin per Unit — that explains the "why" behind every change instead of just reporting what happened, with an AI Assistant that turns every signal into a ranked, dollar-weighted to-do list.',
+    stats: [
+      { icon: DollarSign, v: '14',   l: 'Metrics tracked' },
+      { icon: Brain,      v: 'AI',   l: 'Daily to-do assistant' },
+      { icon: Target,     v: '9',    l: 'Dashboard sections' },
+    ],
+    methods: [
+      'Product Analytics',
+      'Metric Design',
+      'JTBD',
+      'Dashboard UX',
+    ],
+    year:    '2026',
   },
 ];
 
