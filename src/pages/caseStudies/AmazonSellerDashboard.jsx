@@ -280,7 +280,7 @@ export default function AmazonSellerDashboardCaseStudy() {
           <Rev>
             <div className="rounded-2xl overflow-hidden border border-white/[0.07] mb-14 h-64 md:h-80 bg-[#111116]">
               <img
-                src="/amazonSeller.svg"
+                src="/amazon.png"
                 alt="Amazon Seller Dashboard"
                 className="w-full h-full object-cover"
               />
