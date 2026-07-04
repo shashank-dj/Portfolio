@@ -18,6 +18,7 @@ import CursorPMCaseStudy from './pages/caseStudies/CursorPM';
 import JulesCaseStudy from './pages/caseStudies/Jules';
 import NShiftCaseStudy from './pages/caseStudies/nShift';
 import FirefliesCaseStudy from './pages/caseStudies/Fireflies';
+import AmazonSellerDashboardCaseStudy from './pages/caseStudies/AmazonSellerDashboard';
 
 /* Scroll to top on every navigation */
 function ScrollReset() {
@@ -48,7 +49,8 @@ function AppInner() {
           <Route path="/case-studies/jules" element={<JulesCaseStudy />} />     
           <Route path="/case-studies/nShift" element={<NShiftCaseStudy />} />  
           <Route path="/case-studies/fireflies" element={<FirefliesCaseStudy />}
-          />   
+          />
+          <Route path="/case-studies/amazon-seller-dashboard" element={<AmazonSellerDashboardCaseStudy />} />
         </Routes>
       </main>
 
