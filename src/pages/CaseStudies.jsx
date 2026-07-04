@@ -155,7 +155,7 @@ const STUDIES = [
   },
   {
     to:      '/case-studies/amazon-seller-dashboard',
-    image:   '/amazonSeller.svg',
+    image:   '/amazon.png',
     company: 'Amazon Seller Dashboard',
     color:   'border-amber-400/20 hover:border-amber-400/40',
     accent:  'text-amber-400',
